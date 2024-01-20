@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Sociologist and Social Scientist
+role:
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Michigan
-    url: https://www.umich.edu/
+  - name:
+    url:
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stratification, social mobility, and economic sociology.
@@ -58,6 +58,10 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+
+Sociologist and Social Scientist
+
+<a href="https://www.umich.edu/" target="_blank" rel="noopener noreferrer">University of Michigan</a>
 
 Hi, I am a sociologist who studies inequality and social mobility.
 {style="text-align: justify;"}
