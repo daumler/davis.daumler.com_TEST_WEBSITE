@@ -5,7 +5,7 @@
 
 title: Davis Daumler # Website name
 baseURL: 'https://incomparable-halva-85ed56.netlify.app' # Website URL
-
+theme: Daumler-website
 
 ############################
 ## LANGUAGE
