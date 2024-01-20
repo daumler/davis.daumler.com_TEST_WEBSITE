@@ -19,15 +19,15 @@ main:
   - name: Teaching
     url: '#teaching'
     weight: 330
-  - name: About Me
-    url: '#about'
-    weight: 400
   - name: Resources
     url: '#resources'
-    weight: 410
+    weight: 400
+  - name: About Me
+    url: '#about'
+    weight: 800
   - name: PSID-SHELF
     url: 'https://www.openicpsr.org/openicpsr/project/194322'
-    weight: 500
+    weight: 900
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
