@@ -2,7 +2,7 @@ name = "Davis Daumler"
 license = "MIT"
 licenselink = "https://github.com/HugoBlox/theme-academic-cv/blob/main/LICENSE.md"
 description = "The personal and professional website of Davis Daumler."
-homepage = "https://davisdaumler.com"
+homepage = "https://incomparable-halva-85ed56.netlify.app"
 demosite = ""
 tags = ["academic",
         "sociology"
