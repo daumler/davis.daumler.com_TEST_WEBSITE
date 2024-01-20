@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: `r Sys.Date()`
+date: 
 type: landing
 
 sections:
