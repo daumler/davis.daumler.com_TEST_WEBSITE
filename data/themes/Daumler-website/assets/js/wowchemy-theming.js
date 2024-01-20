@@ -11,7 +11,7 @@ import {fadeIn} from './wowchemy-animation';
 const body = document.body;
 
 function getThemeMode() {
-  return parseInt(localStorage.getItem('wcTheme') || 1);
+  return parseInt(localStorage.getItem('wcTheme') || 2);
 }
 
 function canChangeTheme() {
