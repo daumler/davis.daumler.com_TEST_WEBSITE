@@ -20,10 +20,10 @@ main:
     url: '/event'
     weight: 330
   - name: Resources
-    url: '/slides'
+    url: '/talks'
     weight: 400
   - name: About Me
-    url: '/post'
+    url: '/featured'
     weight: 800
   - name: PSID-SHELF
     url: 'https://www.openicpsr.org/openicpsr/project/194322'
