@@ -11,8 +11,8 @@ baseURL: 'https://incomparable-halva-85ed56.netlify.app' # Website URL
 ## LANGUAGE
 ############################
 
-theme:
- - Daumler_website
+themesDir: "themes"
+theme: "Daumler_website"
 
 ############################
 ## LANGUAGE
