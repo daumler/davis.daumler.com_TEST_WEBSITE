@@ -19,3 +19,88 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+[[redirects]]
+  from = "/cv"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/CV"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/Cv"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/cV"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/Daumler_cv"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/Daumler_CV"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/Daumler_Cv"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/Daumler_cV"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cv.pdf"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/CV.pdf"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/Cv.pdf"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/cV.pdf"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/Daumler_cv.pdf"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/Daumler_CV.pdf"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/Daumler_Cv.pdf"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/Daumler_cV.pdf"
+  to = "/uploads/Daumler_CV.pdf"
+  status = 301
+  force = true
+
