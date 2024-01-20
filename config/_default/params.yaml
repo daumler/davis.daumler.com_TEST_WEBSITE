@@ -70,7 +70,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/davisdaumler/Website_Testing'
+    url: 'https://github.com/davisdaumler/Website_Test'
     content_dir: content
     branch: main
   avatar:
