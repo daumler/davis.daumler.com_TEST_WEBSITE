@@ -11,19 +11,19 @@ main:
     url: 'https://incomparable-halva-85ed56.netlify.app/uploads/Daumler_CV.pdf'
     weight: 200
   - name: Research
-    url: '#post'
+    url: '/project'
     weight: 310
   - name: Publications
     url: '/publication'
     weight: 320
   - name: Teaching
-    url: 'post'
+    url: '/event'
     weight: 330
   - name: Resources
-    url: '/post'
+    url: '/slides'
     weight: 400
   - name: About Me
-    url: '/project'
+    url: '/post'
     weight: 800
   - name: PSID-SHELF
     url: 'https://www.openicpsr.org/openicpsr/project/194322'
