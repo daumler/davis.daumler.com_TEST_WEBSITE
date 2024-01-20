@@ -3,7 +3,7 @@
 title: Davis Daumler
 
 # Name pronunciation (optional)
-name_pronunciation: Day-vis Dawm-luhr
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Davis
@@ -11,7 +11,7 @@ last_name: Daumler
 
 # Status emoji
 status:
-  icon: ☕
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -48,6 +48,8 @@ education:
     - course: BA (Hons) in Sociology and Political Science
       institution: McGill University
       year: 2013
+
+<!--- Commenting out ---
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -88,6 +90,8 @@ skills:
         percent: 80
         icon: camera-retro
         icon_pack: fas
+        
+--- Commenting out --->
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -109,15 +113,18 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/davisdaumler
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/Daumler_CV.pdf
+
+<!--- Commenting out ---
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/
+--- Commenting out --->
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
