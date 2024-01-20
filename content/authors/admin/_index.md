@@ -27,31 +27,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stratification, social mobility, and economic sociology.
 
-# Interests to show in About widget
-interests:
-  - Stratification
-  - Social mobility
-  - Economic sociology
-  - Wealth accumulation
-  - Poverty dynamics
-  - Family inequality
-
-# Education to show in About widget
-education:
-  courses:
-    - course: PhD in Sociology
-      institution: University of Michigan
-      year: 2025
-    - course: MA in Sociology
-      institution: University of Michigan
-      year: 2021
-    - course: MA in Sociology (Population Dynamics)
-      institution: McGill University
-      year: 2015
-    - course: BA (Hons) in Sociology and Political Science
-      institution: McGill University
-      year: 2013
-
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
@@ -84,7 +59,7 @@ social:
 highlight_name: true
 ---
 
-Davis Daumler is a sociologist who studies inequality and social mobility.
+Hi, I am a sociologist who studies inequality and social mobility.
 {style="text-align: justify;"}
 
 
@@ -180,5 +155,35 @@ social:
 # https://jpswalsh.github.io/academicons/
 # fa: institution, university, mortar-board, book, user-graduate, briefcase, send, send-o, newspaper-o, archive, address-card, address-card-o, wpforms, whmcs, weight-hanging, user-tag, user-circle
 # https://www.w3schools.com/icons/icons_reference.asp
+
+--- Commenting out --->
+
+
+<!--- Commenting out ---
+
+# Interests to show in About widget
+interests:
+  - Stratification
+  - Social mobility
+  - Economic sociology
+  - Wealth accumulation
+  - Poverty dynamics
+  - Family inequality
+
+# Education to show in About widget
+education:
+  courses:
+    - course: PhD in Sociology
+      institution: University of Michigan
+      year: 2025
+    - course: MA in Sociology
+      institution: University of Michigan
+      year: 2021
+    - course: MA in Sociology (Population Dynamics)
+      institution: McGill University
+      year: 2015
+    - course: BA (Hons) in Sociology and Political Science
+      institution: McGill University
+      year: 2013
 
 --- Commenting out --->
