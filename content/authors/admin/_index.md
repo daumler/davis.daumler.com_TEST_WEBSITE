@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role:
+role: Sociologist and social scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name:
-    url:
+  - name: University of Michigan
+    url: https://umich.edu
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stratification, social mobility, and economic sociology.
