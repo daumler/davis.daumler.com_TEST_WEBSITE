@@ -32,6 +32,9 @@ interests:
   - Stratification
   - Social mobility
   - Economic sociology
+  - Wealth accumulation
+  - Poverty dynamics
+  - Family inequality
 
 # Education to show in About widget
 education:
@@ -54,9 +57,6 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/DavisDaumler
@@ -66,15 +66,19 @@ social:
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=lTp9f0kAAAAJ
+    label: Check out my Google Scholar
   - icon: github
     icon_pack: fab
-    link: https://github.com/davisdaumler
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  - icon: cv
+    link: https://github.com/daumler
+    label: Take a gander at my GitHub
+  - icon: orcid
     icon_pack: ai
-    link: uploads/Daumler_CV.pdf
+    link: https://orcid.org/0000-0001-7942-9587
+    label: Make sure I'm legit with ORCID
+  - icon: institution
+    icon_pack: fa
+    link: https://lsa.umich.edu/soc/people/current-graduate-students/davis-daumler.html
+    label: Go visit my institutional profile
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -129,7 +133,52 @@ skills:
 --- Commenting out --->
 
 <!--- Commenting out ---
+  - icon: envelope
+    icon_pack: fas
+    link: '/#contact'
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/
+  # Link to a PDF of your resume/CV.
+  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
+  # and uncomment the lines below.
+  - icon: cv
+    icon_pack: ai
+    link: uploads/Daumler_CV.pdf    
+--- Commenting out --->
+
+<!--- Commenting out ---
+
+social:
+- display:
+    header: false # Display Twitter icon in the navigation bar?
+  icon: twitter
+  icon_pack: fab
+#  label: Follow me on Twitter
+  link: https://twitter.com/DavisDaumler
+- icon: graduation-cap
+  icon_pack: fas
+  # fas: graduation-cap; ai: google-scholar
+#  label: Check out my Google Scholar
+  link: https://scholar.google.com/citations?user=lTp9f0kAAAAJ
+- icon: github # github, github-square
+  icon_pack: fab
+#  label: Take a gander at my GitHub
+  link: https://github.com/daumler
+- icon: orcid
+  icon_pack: ai
+#  label: Make sure I'm legit with ORCID
+  link: https://orcid.org/0000-0001-7942-9587
+- icon: institution
+  icon_pack: fa
+#  label: Go visit my institutional profile
+  link: https://lsa.umich.edu/soc/people/current-graduate-students/davis-daumler.html
+#- icon: briefcase
+#  icon_pack: fa
+#  link: /cv
+# ai: obp, orcid, osf, overleaf, zotero
+# https://jpswalsh.github.io/academicons/
+# fa: institution, university, mortar-board, book, user-graduate, briefcase, send, send-o, newspaper-o, archive, address-card, address-card-o, wpforms, whmcs, weight-hanging, user-tag, user-circle
+# https://www.w3schools.com/icons/icons_reference.asp
+
 --- Commenting out --->
