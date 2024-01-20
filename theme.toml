@@ -19,7 +19,7 @@ features = ["cv",
 
 [author]
   name = "Davis Daumler"
-  homepage = "https://davisdaumler.com"
+  homepage = "https://incomparable-halva-85ed56.netlify.app"
 
 # If porting an existing theme
 [original]
