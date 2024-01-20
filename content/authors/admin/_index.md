@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Sociologist and social scientist
+role: Sociologist and Social Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -58,10 +58,6 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-Sociologist and Social Scientist
-
-<a href="https://www.umich.edu/" target="_blank" rel="noopener noreferrer">University of Michigan</a>
 
 Hi, I am a sociologist who studies inequality and social mobility.
 {style="text-align: justify;"}
