@@ -62,10 +62,12 @@ highlight_name: true
 Hi, I am a sociologist who studies inequality and social mobility.
 {style="text-align: justify;"}
 
-{{< cta cta_text="DOWNLOAD CV" cta_link="/CV" cta_new_tab="true" >}}
+
 
 
 <!--- Commenting out ---
+
+{{< cta cta_text="DOWNLOAD CV" cta_link="/CV" cta_new_tab="true" >}}
 
 {{< cta-center cta_text="DOWNLOAD CV" cta_link="/CV" cta_new_tab="true" >}}
 
