@@ -6,11 +6,7 @@
 
 imports:
   - path: Daumler-website
-  - path: blox-analytics
-  - path: blox-bootstrap
-  - path: blox-core
-  - path: blox-plugin-decap-cms
-  - path: blox-plugin-netlify
-  - path: blox-plugin-reveal
-  - path: blox-seo
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
   - path: Daumler-website
