@@ -6,9 +6,9 @@ type: landing
 
 sections:
   - block: about.biography
-    id: about
+    id: home
     content:
-      title: Biography
+      title: Davis Daumler
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 ---
