@@ -1,8 +1,19 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: `r Sys.Date()`
 type: landing
+
+sections:
+  - block: about.biography
+    id: home
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
+---
+
+
+<!--- Commenting out ---
 
 sections:
   - block: about.biography
@@ -11,4 +22,5 @@ sections:
       title: Davis Daumler
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
----
+
+--- Commenting out --->
