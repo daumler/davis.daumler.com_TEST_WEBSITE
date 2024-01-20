@@ -6,7 +6,11 @@
 
 imports:
   - path: Daumler-website
+  - path: blox-analytics
+  - path: blox-bootstrap
+  - path: blox-core
+  - path: blox-plugin-decap-cms
   - path: blox-plugin-netlify
   - path: blox-plugin-reveal
-  - path: blox-bootstrap
+  - path: blox-seo
   - path: Daumler-website
