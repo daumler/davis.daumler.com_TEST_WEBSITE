@@ -2,7 +2,7 @@
 
 @include media-breakpoint-down(xl) {
   div.container{
-    max-width:80%;
+    max-width:90%;
   }
 }
 
@@ -14,13 +14,13 @@
 
 @include media-breakpoint-down(md) {
   div.container{
-    max-width:98%;
+    max-width:95%;
   }
 }
 
 @include media-breakpoint-down(sm) {
   div.container{
-    max-width:98%;
+    max-width:95%;
   }
 }
 
