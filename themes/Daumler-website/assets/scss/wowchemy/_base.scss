@@ -38,6 +38,12 @@ body {
   // margin-top: 70px;
 
   @include media-breakpoint-down(md) {
+    font-size: 0.95rem;
+    // Offset body content by fixed navbar height.
+    // margin-top: 50px;
+  }
+
+  @include media-breakpoint-down(sm) {
     font-size: 1.0rem;
     // Offset body content by fixed navbar height.
     // margin-top: 50px;
