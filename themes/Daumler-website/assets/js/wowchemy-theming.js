@@ -6,48 +6,6 @@
  *  Supported Modes: {0: Light, 1: Dark, 2: Auto}
  **************************************************/
 
-
-
-
-/* ---------------------------------------------------------------------------
-  * Toggle day/night mode.
-  * --------------------------------------------------------------------------- */
-
-  function toggleDarkMode(codeHlEnabled, codeHlLight, codeHlDark, diagramEnabled) {
-    if ($('body').hasClass('dark')) {
-      $('body').css({opacity: 0, visibility: 'visible'}).animate({opacity: 1}, 500);
-      $('body').removeClass('dark');
-      if (codeHlEnabled) {
-        codeHlLight.disabled = false;
-        codeHlDark.disabled = true;
-      }
-      $('.js-dark-toggle i').removeClass('fa-sun').addClass('fa-moon');
-      localStorage.setItem('dark_mode', '0');
-      if (diagramEnabled) {
-        // TODO: Investigate Mermaid.js approach to re-render diagrams with new theme without reloading.
-        location.reload();
-      }
-    } else {
-      $('body').css({opacity: 0, visibility: 'visible'}).animate({opacity: 1}, 500);
-      $('body').addClass('dark');
-      if (codeHlEnabled) {
-        codeHlLight.disabled = true;
-        codeHlDark.disabled = false;
-      }
-      $('.js-dark-toggle i').removeClass('fa-moon').addClass('fa-sun');
-      localStorage.setItem('dark_mode', '1');
-      if (diagramEnabled) {
-        // TODO: Investigate Mermaid.js approach to re-render diagrams with new theme without reloading.
-        location.reload();
-      }
-    }
-  }
-
-
-
-
-
-
 import {fadeIn} from './wowchemy-animation';
 
 const body = document.body;
