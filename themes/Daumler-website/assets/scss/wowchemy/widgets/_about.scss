@@ -36,8 +36,8 @@
 
 @include media-breakpoint-down(xs) {
   .avatar {
-    width: 330px;
-    height: 330px;
+    width: 315px;
+    height: 315px;
     margin: 0 auto;
     object-fit: cover;
   }
@@ -80,7 +80,7 @@
   font-size: 1rem;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.54);
-  margin: 0 0 10px;
+  margin: 0 0 20px;
 }
 
 @include media-breakpoint-down(md) {
