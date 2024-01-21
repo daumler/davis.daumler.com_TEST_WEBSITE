@@ -9,30 +9,30 @@
 }
 
 .avatar {
-  width: 350px;
-  height: 350px;
+  width: 375px;
+  height: 375px;
   margin: 0 auto;
   object-fit: cover;
 }
 
 @include media-breakpoint-down(md) {
   .avatar {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   }
 }
 
 @include media-breakpoint-down(sm) {
   .avatar {
-    width: 275px;
-    height: 275px;
+    width: 325px;
+    height: 325px;
   }
 }
 
 @include media-breakpoint-down(xs) {
   .avatar {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
 }
 
