@@ -15,6 +15,13 @@
   object-fit: cover;
 }
 
+@include media-breakpoint-down(md) {
+  .avatar {
+    width: 200px;
+    height: 200px;
+  }
+}
+
 // Use smaller avatar size in About widget on small devices.
 @include media-breakpoint-down(md) {
   .wg-about .avatar {
