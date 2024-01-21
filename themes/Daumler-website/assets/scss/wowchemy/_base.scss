@@ -60,11 +60,10 @@ body.no-navbar {
 
 .page-wrapper {
   // Min height = viewport height - navbar height
-  min-height: calc(100vh - 65px); // Used to be: -70px
+  min-height: calc(100vh - 165px); // Used to be: -70px
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
-  padding: 50px;
 }
 @include media-breakpoint-down(md) {
   .page-wrapper {
