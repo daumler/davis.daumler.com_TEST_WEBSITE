@@ -1,6 +1,6 @@
 +++
 # A section created with the Blank widget.
-widget = "blank"  # See https://docs.hugoblox.com/page-builder/
+widget = "about.biography"  # See https://docs.hugoblox.com/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
