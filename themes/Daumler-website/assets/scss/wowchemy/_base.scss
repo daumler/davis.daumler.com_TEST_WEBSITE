@@ -38,7 +38,7 @@ body {
   // margin-top: 70px;
 
   @include media-breakpoint-down(md) {
-    font-size: 0.95rem;
+    font-size: 1.0rem;
     // Offset body content by fixed navbar height.
     // margin-top: 50px;
   }
@@ -294,7 +294,7 @@ mark,
 
 .universal-wrapper {
   margin: 0 auto;
-  padding-right: 1rem;
+  padding-right: 10rem;
   padding-left: 1rem;
   padding-top: 0.1rem;
   width: 100%;
