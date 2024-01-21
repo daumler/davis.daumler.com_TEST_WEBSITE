@@ -24,7 +24,7 @@
 
 <!-- About widget -->
 <div class="row">
-  <div class="col-10 col-lg-3">
+  <div class="col-12 col-lg-4">
     <div id="profile">
 
       {{ if site.Params.features.avatar.gravatar }}
@@ -35,6 +35,7 @@
            width="{{ $avatar_image.Width }}" height="{{ $avatar_image.Height }}"
            src="{{ $avatar_image.RelPermalink }}" alt="{{$person_page.Title}}">
       {{ end }}
+
 
       <!--- Old Portrait Title ---
 
@@ -90,7 +91,7 @@
 
     </div>
   </div>
-  <div class="col-10 col-lg-7">
+  <div class="col-12 col-lg-8">
 
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
     {{ with $block.content.title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
