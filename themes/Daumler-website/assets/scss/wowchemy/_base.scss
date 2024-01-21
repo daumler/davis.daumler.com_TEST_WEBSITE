@@ -29,6 +29,7 @@ body {
   color: inherit;
   background-color: $sta-background;
   padding-top: 0;
+  padding-right: 5px;
   counter-reset: captions;
 
   // Prevent horizontal scrollbar in case a site admin adds fixed width content without applying `max-width: 100%`.
