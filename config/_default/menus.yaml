@@ -22,7 +22,7 @@ main:
   - name: Resources
     url: '/talks'
     weight: 400
-  - name: More About Me
+  - name: About Me
     url: '/post'
     weight: 800
 #  - name: PSID-SHELF
