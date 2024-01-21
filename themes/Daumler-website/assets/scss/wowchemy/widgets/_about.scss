@@ -4,21 +4,21 @@
 
 #profile {
   text-align: center;
-  padding: 0px 0px;
+  padding: 0px 5px;
   position: relative;
 }
 
 .avatar {
-  width: 425px;
-  height: 425px;
+  width: 420px;
+  height: 420px;
   margin: 0 auto;
   object-fit: cover;
 }
 
 @include media-breakpoint-down(md) {
   .avatar {
-    width: 375px;
-    height: 375px;
+    width: 405px;
+    height: 405px;
     margin: 0 auto;
     object-fit: cover;
 
@@ -27,8 +27,8 @@
 
 @include media-breakpoint-down(sm) {
   .avatar {
-    width: 325px;
-    height: 325px;
+    width: 360px;
+    height: 360px;
     margin: 0 auto;
     object-fit: cover;
   }
@@ -36,8 +36,8 @@
 
 @include media-breakpoint-down(xs) {
   .avatar {
-    width: 300px;
-    height: 300px;
+    width: 330px;
+    height: 330px;
     margin: 0 auto;
     object-fit: cover;
   }
