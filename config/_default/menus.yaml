@@ -5,7 +5,7 @@
 
 main:
   - name: Home
-    url: ''
+    url:
     weight: 100
   - name: CV
     url: 'https://incomparable-halva-85ed56.netlify.app/uploads/Daumler_CV.pdf'
@@ -22,12 +22,12 @@ main:
   - name: Resources
     url: '/talks'
     weight: 400
-  - name: About Me
+  - name: More About Me
     url: '/post'
     weight: 800
-  - name: PSID-SHELF
-    url: 'https://www.openicpsr.org/openicpsr/project/194322'
-    weight: 900
+#  - name: PSID-SHELF
+#    url: 'https://www.openicpsr.org/openicpsr/project/194322'
+#    weight: 900
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
