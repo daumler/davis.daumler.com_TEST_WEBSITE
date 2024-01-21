@@ -80,7 +80,7 @@
   font-size: 1rem;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.54);
-  margin: 0 0 15px;
+  margin: 0 0 12px;
 }
 
 @include media-breakpoint-down(md) {
@@ -88,7 +88,7 @@
     font-size: 1rem;
     font-weight: 300;
     color: rgba(0, 0, 0, 0.54);
-    margin: 0 0 10px;
+    margin: 0 0 12px;
     Text-align: center;
   }
 }
