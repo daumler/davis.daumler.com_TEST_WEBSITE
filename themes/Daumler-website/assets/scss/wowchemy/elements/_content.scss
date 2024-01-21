@@ -5,7 +5,7 @@
 .article-container {
   max-width: 760px;
   padding: 0 20px;
-  margin: 0 200px;
+  margin: 0 auto;
 }
 
 .page-subtitle {
@@ -229,6 +229,7 @@ caption {
 
 .article-widget {
   padding-top: 1.2rem; /* Match .content-widget-hr */
+  padding-right: 1rem;
 }
 
 .article-widget h3 {
