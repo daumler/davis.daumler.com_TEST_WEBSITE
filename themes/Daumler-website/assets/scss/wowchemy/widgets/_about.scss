@@ -80,7 +80,7 @@
   font-size: 1rem;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.54);
-  margin: 0 0 12px;
+  margin: 0 0 10px;
 }
 
 @include media-breakpoint-down(md) {
@@ -88,7 +88,7 @@
     font-size: 1rem;
     font-weight: 300;
     color: rgba(0, 0, 0, 0.54);
-    margin: 0 0 12px;
+    margin: 0 0 10px;
     Text-align: center;
   }
 }
@@ -217,3 +217,8 @@ ul.ul-edu li .description p.institution {
     max-width: 680px;
   }
 }
+
+.bio-text {
+    max-width: 680px;
+}
+
