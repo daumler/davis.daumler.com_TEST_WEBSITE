@@ -14,12 +14,12 @@
 // Allow section or elements (such as Slider slides) within it to be fullscreen
 .home-section.fullscreen,
 .fullscreen {
-  min-height: calc(100vh - 165px); // Used to be 100vh - 70px
+  min-height: calc(100vh - 65px); // Used to be 100vh - 70px
 }
 @include media-breakpoint-down(md) {
   .home-section.fullscreen,
   .fullscreen {
-    min-height: calc(100vh - 150px); // Used to be 100vh - 50px
+    min-height: calc(100vh - 50px); // Used to be 100vh - 50px
   }
 }
 
