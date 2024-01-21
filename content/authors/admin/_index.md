@@ -60,9 +60,9 @@ highlight_name: true
 ---
 
 Hi, I am a sociologist who studies inequality and social mobility. My research advances our understanding of how social inequalities are impacted by changing family dynamics—unfolding across multiple generations of American families.
-{style="text-align: justify;"}
 
 I am currently working on two broader projects. The first investigates how the timing of childhood poverty contributes to intergenerational inequalities. And the second explores the process by which families accumulate wealth and the larger shift in society’s reliance on household finances as a de facto safety net.
+{style="text-align: justify;"}
 
 {{< cta cta_text="DOWNLOAD CV" cta_link="/CV" cta_new_tab="true" >}}
 
