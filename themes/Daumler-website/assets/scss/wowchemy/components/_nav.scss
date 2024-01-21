@@ -36,8 +36,7 @@
   font-size: #{$sta-font-size-small}px;
 
   font-weight: 300;
-  position: fixed;
-  z-index: 1030;
+
 
   // Remove Bootstrap's navbar v-padding and assign v-padding to logo separately to maximise logo size.
   // Otherwise, Bootstrap's navbar v-padding causes issue with logo fitting within fixed 50px height bar in md-lg sizes.
