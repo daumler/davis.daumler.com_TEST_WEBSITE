@@ -29,7 +29,6 @@ body {
   color: inherit;
   background-color: $sta-background;
   padding-top: 0;
-  padding-right: 5px;
   counter-reset: captions;
 
   // Prevent horizontal scrollbar in case a site admin adds fixed width content without applying `max-width: 100%`.
@@ -295,7 +294,7 @@ mark,
 
 .universal-wrapper {
   margin: 0 auto;
-  padding-right: 1rem;
+  padding-right: 50rem;
   padding-left: 1rem;
   padding-top: 0.1rem;
   width: 100%;
