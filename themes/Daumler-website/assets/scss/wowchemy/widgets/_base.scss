@@ -14,18 +14,18 @@
 // Allow section or elements (such as Slider slides) within it to be fullscreen
 .home-section.fullscreen,
 .fullscreen {
-  min-height: calc(90vh - 65px); // Used to be 100vh - 70px
+  min-height: calc(100vh - 65px); // Used to be -70px
 }
 @include media-breakpoint-down(md) {
   .home-section.fullscreen,
   .fullscreen {
-    min-height: calc(90vh - 50px); // Used to be 100vh - 50px
+    min-height: calc(100vh - 50px);
   }
 }
 
 .no-navbar .home-section.fullscreen,
 .no-navbar .fullscreen {
-  min-height: 90vh; // Used to be 100vh
+  min-height: 100vh;
 }
 
 // Section theming
@@ -87,7 +87,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 90%; // Or fill-available when supported.
+  height: 100%; // Or fill-available when supported.
   width: 100%; // Or fill-available when supported.
   z-index: -1; // Place bg div behind content.
 }
