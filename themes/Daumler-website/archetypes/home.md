@@ -20,11 +20,11 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "navy"
+  color = "navy"
   
   # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+  gradient_start = "DeepSkyBlue"
+  gradient_end = "SkyBlue"
   
   # Background image.
   # image = "image.jpg"  # Name of image in `static/media/`.
@@ -35,7 +35,7 @@ subtitle = ""
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["0px", "0px", "0px", "0px"]
+  padding = ["100px", "100px", "100px", "100px"]
 
 [advanced]
  # Custom CSS. 
