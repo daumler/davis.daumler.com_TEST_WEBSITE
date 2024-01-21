@@ -16,7 +16,7 @@
 }
 
 // Use smaller avatar size in About widget on small devices.
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(xs) {
   .wg-about .avatar {
     width: 100px;
     height: 100px;
