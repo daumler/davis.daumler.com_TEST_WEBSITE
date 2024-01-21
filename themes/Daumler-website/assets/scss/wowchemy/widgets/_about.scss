@@ -17,8 +17,22 @@
 
 @include media-breakpoint-down(md) {
   .avatar {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .avatar {
+    width: 275px;
+    height: 275px;
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .avatar {
+    width: 250px;
+    height: 250px;
   }
 }
 
