@@ -7,7 +7,7 @@
 appearance:
   theme_day: minimal_custom
   theme_night: minimal_custom
-  font: minimal
+  font: native
   font_size: L
 
 design:
