@@ -32,7 +32,7 @@ marketing:
 header:
   navbar:
     enable: true
-    fixed_to_top: true
+    fixed_to_top: false
     align: r
     show_logo: true
     show_language: false
