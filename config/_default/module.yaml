@@ -5,7 +5,7 @@
 ############################
 
 imports:
-  - path: Daumler-website
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
+  - path: Daumler_Website_Custom_Theme
+  - path: github.com/daumler/Daumler_Website_Custom_Build_Hugo_Blox/tree/main/modules/blox-plugin-netlify
+  - path: github.com/daumler/Daumler_Website_Custom_Build_Hugo_Blox/tree/main/modules/blox-plugin-reveal
+  - path: github.com/daumler/Daumler_Website_Custom_Build_Hugo_Blox/tree/main/modules/blox-bootstrap/v5
