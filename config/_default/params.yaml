@@ -9,8 +9,6 @@ appearance:
   theme_night: minimal_custom
   font: native
   font_size: L
-
-design:
   background:
     # Choose colors such as from https://html-color-codes.info
     color: 'navy'
