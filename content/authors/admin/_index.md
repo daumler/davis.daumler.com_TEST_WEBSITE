@@ -22,7 +22,7 @@ role: Sociologist and Social Scientist
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: University of Michigan
-    url: https://umich.edu
+    url: ''
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stratification, social mobility, and economic sociology. 
@@ -35,7 +35,7 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/DavisDaumler
-    label: Follow me on Twitter
+    label: ''
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
