@@ -40,16 +40,21 @@ links:
     name: Follow
     url: https://twitter.com/georgecushen
 url_code: ''
-url_pdf: ''
-url_slides: ''
+url_pdf: 'https://twitter.com/georgecushen'
+url_slides: 'https://twitter.com/georgecushen'
 url_video: ''
+
+links:
+  - icon: twitter
+    icon_pack: fab
+    name: Slides
+    url: https://twitter.com/georgecushen
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
 slides: example
 
 # Projects (optional).
