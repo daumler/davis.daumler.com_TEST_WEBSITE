@@ -24,7 +24,7 @@ main:
     weight: 400
   - name: Hobbies
     parent: Resources
-    url: '/talks'
+    url: '/slides'
     weight: 410
   - name: PSID-SHELF
     parent: Resources

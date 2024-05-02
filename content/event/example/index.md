@@ -4,7 +4,7 @@ title: Example Talk
 event: Hugo Blox Builder Conference
 event_url: https://example.org
 
-location: Hugo Blox Builder HQ
+location: ["Hugo Blox Builder HQ", "Test"]
 address:
   street: 450 Serra Mall
   city: Stanford
