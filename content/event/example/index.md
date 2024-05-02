@@ -12,9 +12,9 @@ address:
   postcode: '94305'
   country: United States
 
-summary: 'An example talk using Hugo Blox Builder's Markdown slides feature.
+summary: An example talk using Hugo Blox Builder's Markdown slides feature.
   \newline Test
-  \newline Testing 123'
+  \newline Testing 123
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
 
 # Talk start and end times.
