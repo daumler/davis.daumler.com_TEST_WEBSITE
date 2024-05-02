@@ -39,14 +39,13 @@ links:
     icon_pack: fab
     name: Follow
     url: https://twitter.com/georgecushen
+  - name: "Slides"
+    url: "path_to_slide2.pdf"
+
 url_code: ''
 url_pdf: 'https://twitter.com/georgecushen'
 url_slides: 'https://twitter.com/georgecushen'
 url_video: ''
-
-links:
-  - name: Slides
-    url: https://twitter.com/georgecushen
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
