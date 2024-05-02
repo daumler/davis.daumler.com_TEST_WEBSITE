@@ -45,9 +45,7 @@ url_slides: 'https://twitter.com/georgecushen'
 url_video: ''
 
 links:
-  - icon: twitter
-    icon_pack: fab
-    name: Slides
+  - name: Slides
     url: https://twitter.com/georgecushen
 
 # Markdown Slides (optional).
