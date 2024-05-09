@@ -26,6 +26,9 @@ publishDate: '2017-01-01T00:00:00Z'
  
 summary: An example talk using Hugo Blox Builder's Markdown slides feature.
 
+event: Hugo Blox Builder Conference
+event_url: https://example.org
+
  
 ### EVENT
 
