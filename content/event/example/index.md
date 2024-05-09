@@ -4,6 +4,7 @@ title: This is a test
 #event: Hugo Blox Builder Conference
 #event_url: https://example.org
 
+publication_types: ['paper-conference']
 publication: In *International Migration Review*
 
 #location: Hugo Blox Builder HQ
