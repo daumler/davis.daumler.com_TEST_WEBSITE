@@ -24,6 +24,8 @@ publication_short: In *IMR*
 # Schedule page publish date (NOT publication's date).
 publishDate: '2017-01-01T00:00:00Z'
  
+summary: An example talk using Hugo Blox Builder's Markdown slides feature.
+
  
 ### EVENT
 
@@ -54,7 +56,7 @@ publishDate: '2017-01-01T00:00:00Z'
 #tags: []
 
 # Is this a featured publication/talk? (true/false)
-featured: false
+featured: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -68,7 +70,7 @@ links:
     icon_pack: fab
     name: Follow
     url: https://twitter.com/georgecushen
-  - name: "Slides"
+  - name: "Custom link"
     url: "path_to_slide2.pdf"
 
 url_pdf: ''
