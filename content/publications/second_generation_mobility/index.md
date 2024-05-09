@@ -56,7 +56,7 @@ summary: An example talk using Hugo Blox Builder's Markdown slides feature.
 #tags: []
 
 # Is this a featured publication/talk? (true/false)
-featured: true
+featured: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
