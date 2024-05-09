@@ -14,7 +14,7 @@ main:
 #    url: '/project'
 #    weight: 310
   - name: Publications
-    url: '/publication'
+    url: '/publications'
     weight: 320
 #  - name: Teaching
 #    url: '/event'
