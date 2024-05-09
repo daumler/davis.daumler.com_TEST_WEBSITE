@@ -1,10 +1,10 @@
 ---
 title: This is a test
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+#event: Hugo Blox Builder Conference
+#event_url: https://example.org
 
-#publication: In *International Migration Review*
+publication: In *International Migration Review*
 
 #location: Hugo Blox Builder HQ
 #address:
