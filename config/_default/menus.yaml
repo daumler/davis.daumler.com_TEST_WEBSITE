@@ -8,7 +8,7 @@ main:
     url: '/'
     weight: 100
   - name: CV
-    url: '/Daumler_CV'
+    url: 'https://incomparable-halva-85ed56.netlify.app/Daumler_CV'
     weight: 200
 #  - name: Research
 #    url: '/project'
