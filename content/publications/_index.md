@@ -7,10 +7,34 @@ cms_exclude: true
 #   2 = Compact
 #   3 = Card
 #   4 = Citation
-view: 2
+# view: 2
 
 # Optional header image (relative to `static/media/` folder).
-header:
-  caption: ''
-  image: ''
+# header:
+#   caption: ''
+#   image: ''
+
+sections:
+  - block: collection
+    content:
+      filters:
+        featured_only: false
+        folders:
+        - publications
+      title: Journal articles
+    design:
+      columns: "2"
+      view: compact
+    id: journal
+  - block: collection
+    content:
+      filters:
+        featured_only: false
+        folders:
+        - publications
+      title: Working papers
+    design:
+      columns: "2"
+      view: compact
+    id: preprint
 ---
