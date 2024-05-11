@@ -60,7 +60,7 @@ event_url: https://example.org
 #tags: []
 
 # Is this a featured publication/talk? (true/false)
-featured: false
+featured: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

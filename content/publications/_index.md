@@ -28,7 +28,7 @@ sections:
   - block: collection
     content:
       filters:
-        featured_only: false
+        featured_only: true
         folders:
         - working_papers
       title: Working papers
