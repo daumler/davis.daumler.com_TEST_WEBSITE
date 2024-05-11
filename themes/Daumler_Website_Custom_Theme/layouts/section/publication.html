@@ -14,7 +14,7 @@
       {{ end }}
 
       {{/* Array of distinct years. */}}
-      {{ range .Data.Pages.GroupByDate "2006" }}
+      {{ range .Pages.ByDate.Reverse }}
         {{ $year := print (.Date.Format "2006") }}
         {{ $.Scratch.SetInMap "years" $year $year }}
       {{ end }}
@@ -49,8 +49,15 @@
         </div>
       </div>
 
+
+
+
+
+
+
+
       <div id="container-publications">
-        {{ range $index, $item := .Pages.ByDate.Reverse }}
+        {{ range $index, $item := .Data.Pages.GroupByDate "2006" }}
 
         {{ if .Params.publication_types }}
           {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}
@@ -58,9 +65,18 @@
           {{ $.Scratch.Set "pubtype" 0 }}
         {{ end }}
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }} year-{{ .Date.Format "2006" }}">
-          {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact") "index" $index) }}
+        <div class="col-lg-2">
+          <h3>{{ .Key }}</h3>
         </div>
+        <div class="grid-sizer col-lg-10 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }} year-{{ .Date.Format "2006" }}">
+
+          {{ range $index, $item := .Pages }}
+            {{ partial "functions/render_view" (dict "page" $ "item" . "view" ($.Params.view | default "compact") "index" $index) }}
+          {{end}}
+
+        </div>
+
+
 
         {{ end }}
       </div>
