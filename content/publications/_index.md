@@ -24,17 +24,17 @@ sections:
       title: Journal articles
     design:
       columns: "2"
-      view: compact
+      view: card
     id: journal
   - block: collection
     content:
       filters:
         featured_only: false
         folders:
-        - publications
+        - article
       title: Working papers
     design:
       columns: "2"
-      view: compact
+      view: card
     id: preprint
 ---
