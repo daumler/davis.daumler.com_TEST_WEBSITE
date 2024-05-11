@@ -27,11 +27,15 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  event: '/publications/:slug/'
-  project: '/research/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+  page:
+    event: '/publications/:slug/'
+    project: '/research/:slug/'
+    tags: '/tag/:slug/'
+    categories: '/category/:slug/'
+    publication_types: '/publication-type/:slug/'
+  section:
+    event: '/publications/'
+    project: '/research/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
