@@ -58,7 +58,7 @@
           {{ $.Scratch.Set "pubtype" 0 }}
         {{ end }}
 
-        <div class="grid-sizer col-lg-2 isotope-item year-{{ .Date.Format "2006" }}">
+        <div class="grid-sizer col-lg-2 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }} year-{{ .Date.Format "2006" }}">
           <h3>{{ $year := print (.Date.Format "2006") }}</h3>
         </div>
 
