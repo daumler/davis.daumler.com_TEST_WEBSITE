@@ -28,14 +28,16 @@ footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
   page:
-    event: '/publications/:slug/'
+    event: '/publications2/:slug/'
     project: '/research/:slug/'
+    publication: '/publications/:slug/'
     tags: '/tag/:slug/'
     categories: '/category/:slug/'
     publication_types: '/publication-type/:slug/'
   section:
-    event: '/publications/'
+    event: '/publications2/'
     project: '/research/'
+    publication: '/publications/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
