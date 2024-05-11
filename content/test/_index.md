@@ -16,7 +16,7 @@
 
 title: ''
 date: ''
-type: landing
+type: widget_page
 sections:
   - block: collection
     content:
@@ -34,7 +34,7 @@ sections:
       filters:
         featured_only: true
         folders:
-        - working_papers
+        - publications3
       title: Working papers
     design:
       columns: "2"
