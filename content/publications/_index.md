@@ -19,21 +19,21 @@ sections:
       filters:
         featured_only: false
         folders:
-        - publications
+        - journal_articles
       title: Journal articles
     design:
       columns: "2"
-      view: card
+      view: 2
     id: journal
   - block: collection
     content:
       filters:
         featured_only: false
         folders:
-        - article
+        - working_papers
       title: Working papers
     design:
       columns: "2"
-      view: card
+      view: 2
     id: preprint
 ---
