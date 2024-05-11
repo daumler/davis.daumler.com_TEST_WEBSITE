@@ -13,27 +13,4 @@ type: landing
 # header:
 #   caption: ''
 #   image: ''
-sections:
-  - block: collection
-    content:
-      filters:
-        featured_only: false
-        folders:
-        - journal_articles
-      title: Journal articles
-    design:
-      columns: "2"
-      view: 2
-    id: journal
-  - block: collection
-    content:
-      filters:
-        featured_only: true
-        folders:
-        - working_papers
-      title: Working papers
-    design:
-      columns: "2"
-      view: 2
-    id: preprint
 ---
