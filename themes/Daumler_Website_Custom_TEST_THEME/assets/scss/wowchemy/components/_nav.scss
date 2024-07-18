@@ -23,27 +23,6 @@
   top: 0;
 }
 
-.dropdown-menu {
-  z-index: 1031; // I18n dropdown over mobile expanded menu.
-  // OLD:
-  // background-color: $sta-menu-primary !important;
-  // NEW:
-  background-color: rgba(#EEF9FF, 0.97); // E2F2FF, E9F7FF, EEF9FF
-  color: $sta-menu-text !important;
-  text-align: center !important;
-  //   z-index: 1031 !important; // Appear just over navbar.
-  position: absolute; // position: absolute; [previously cancelled out]
-  top: 40px; // previously 44px, then 60px; then 40px [60px-20px]
-  width: 110px;
-  // padding-top: 0px;
-  // padding-right: 0px;
-  // padding: 0px;
-  // padding-left: 1rem;
-  // padding-right: 1rem;
-  padding: $nav-link-padding-y $nav-link-padding-x;
-  margin: 0px 11px 0px 0px; // margin: 0px; [then] 0px 11px 0px 0px;
-}
-
 .navbar {
   height: 60px; // Old: used to be 70px (original), then 65px
   background: $sta-menu-primary;
@@ -319,6 +298,27 @@ ul.nav-icons li:last-of-type {
 
 ul.nav-icons li.nav-item a.nav-link {
   padding: 0;
+}
+
+.dropdown-menu {
+  z-index: 1031; // I18n dropdown over mobile expanded menu.
+  // OLD:
+  // background-color: $sta-menu-primary !important;
+  // NEW:
+  background-color: rgba(#EEF9FF, 0.97); // E2F2FF, E9F7FF, EEF9FF
+  color: $sta-menu-text !important;
+  text-align: center !important;
+  //   z-index: 1031 !important; // Appear just over navbar.
+  position: absolute; // position: absolute; [previously cancelled out]
+  top: 40px; // previously 44px, then 60px; then 40px [60px-20px]
+  width: 110px;
+  // padding-top: 0px;
+  // padding-right: 0px;
+  // padding: 0px;
+  // padding-left: 1rem;
+  // padding-right: 1rem;
+  padding: $nav-link-padding-y $nav-link-padding-x;
+  margin: 0px 11px 0px 0px; // margin: 0px; [then] 0px 11px 0px 0px;
 }
 
 // OLD:
