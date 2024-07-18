@@ -247,7 +247,7 @@
 
   .dark .navbar-collapse {
     background-color: rgba($sta-menu-text, 0.97);
-    color: $sta-dark-menu-text;
+    // color: $sta-dark-menu-text;
   }
 
   #navbar-main .main-menu-item .nav-item:first-of-type {
@@ -474,4 +474,9 @@ ul.nav-icons li.nav-item a.nav-link {
       background-image: none;
     }
   }
+}
+
+.dark .dropdown-item-text {
+  display: block;
+  color: $sta-dark-menu-text;
 }
