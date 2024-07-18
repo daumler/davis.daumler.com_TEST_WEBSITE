@@ -339,13 +339,6 @@ ul.nav-icons li.nav-item a.nav-link {
 }
 
 .dropdown-item:first-of-type {
-  // OLD:
-  // background-color: $sta-menu-primary !important; // old: $sta-menu-primary
-  // NEW:
-  // background-color: rgba(#EEF9FF, 0.97); // E2F2FF, E9F7FF, EEF9FF
-  // color: $sta-menu-text !important;
-  // color: $sta-dark-menu-text;
-  text-align: right !important;
   padding: 22px 12px 13px 7px !important;
 }
 
@@ -358,16 +351,33 @@ ul.nav-icons li.nav-item a.nav-link {
   // color: $sta-dark-menu-text;
   text-align: right !important;
   padding: 13px 12px 13px 7px !important;
+
+  @include hover-focus() {
+    // color: $dropdown-link-hover-color;
+    text-decoration: none;
+    @include gradient-bg($dropdown-link-hover-bg);
+  }
+
+  &.active,
+  &:active {
+    // color: $dropdown-link-active-color;
+    text-decoration: none;
+    @include gradient-bg($dropdown-link-active-bg);
+  }
+
+  &.disabled,
+  &:disabled {
+    // color: $dropdown-link-disabled-color;
+    pointer-events: none;
+    background-color: transparent;
+    // Remove CSS gradients if they're enabled
+    @if $enable-gradients {
+      background-image: none;
+    }
+  }
 }
 
 .dropdown-item:last-of-type {
-  // OLD:
-  // background-color: $sta-menu-primary !important; // old: $sta-menu-primary
-  // NEW:
-  // background-color: rgba(#EEF9FF, 0.97); // E2F2FF, E9F7FF, EEF9FF
-  // color: $sta-menu-text !important;
-  // color: $sta-dark-menu-text;
-  text-align: right !important;
   padding: 13px 12px 18px 7px !important;
 }
 
