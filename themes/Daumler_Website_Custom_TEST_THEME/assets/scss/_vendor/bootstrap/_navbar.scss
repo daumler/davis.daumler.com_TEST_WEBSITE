@@ -296,20 +296,20 @@
     color: $navbar-dark-brand-color;
 
     @include hover-focus() {
-      color: $navbar-dark-brand-hover-color;
+      // color: $navbar-dark-brand-hover-color;
     }
   }
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-dark-color;
+      // color: $navbar-dark-color;
 
       @include hover-focus() {
-        color: $navbar-dark-hover-color;
+        // color: $navbar-dark-hover-color;
       }
 
       &.disabled {
-        color: $navbar-dark-disabled-color;
+        // color: $navbar-dark-disabled-color;
       }
     }
 
@@ -322,8 +322,8 @@
   }
 
   .navbar-toggler {
-    color: $navbar-dark-color;
-    border-color: $navbar-dark-toggler-border-color;
+    // color: $navbar-dark-color;
+    // border-color: $navbar-dark-toggler-border-color;
   }
 
   .navbar-toggler-icon {
@@ -331,12 +331,12 @@
   }
 
   .navbar-text {
-    color: $navbar-dark-color;
+    // color: $navbar-dark-color;
     a {
-      color: $navbar-dark-active-color;
+      // color: $navbar-dark-active-color;
 
       @include hover-focus() {
-        color: $navbar-dark-active-color;
+        // color: $navbar-dark-active-color;
       }
     }
   }
