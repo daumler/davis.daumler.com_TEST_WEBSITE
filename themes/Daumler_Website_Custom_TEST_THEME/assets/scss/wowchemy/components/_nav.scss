@@ -99,7 +99,8 @@
       &.active,
       &:hover,
       &:focus {
-        color: $sta-dark-menu-text-active;
+        // color: $sta-dark-menu-text-active;
+        color: $sta-dark-menu-text;
       }
 
       &.active {
@@ -111,7 +112,7 @@
 
   .dropdown-item.active,
   .dropdown-item-active {
-    color: $sta-dark-menu-text-active !important;
+    // color: $sta-dark-menu-text-active !important;
   }
 }
 
