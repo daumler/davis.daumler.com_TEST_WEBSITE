@@ -148,14 +148,15 @@
 
   /* Below style from .dropdown-menu-right to prevent dropdown going off page. */
   right: 0px; // originally 0, then 11px; then 0px
-  left: calc(auto - 20px); // left: auto; then 0; then 11px
+  left: auto; // left: auto; then 0; then 11px
 
   // padding-top: 0px;
   // padding-right: 0px;
   // padding: 0px;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin: 0px;
+  // margin: 0px;
+  margin-right: -20px;
 }
 
 // Allow user to horizontally scroll.
