@@ -29,6 +29,7 @@
   z-index: 1032; // I18n dropdown over mobile expanded menu.
   // position: absolute;
   top: 44px;
+  width: 33%;
 }
 
 .navbar {
@@ -243,15 +244,15 @@
     background-color: rgba($sta-menu-text, 0.97);
     // color: $sta-dark-menu-text;
   }
-  
+
   #navbar-main .main-menu-item .nav-item:first-of-type {
     padding: 18px 7px 6px !important;
   }
-  
+
   #navbar-main .main-menu-item .nav-item .nav-link:first-of-type {
     padding: 18px 7px 4px !important;
   }
-  
+
   #navbar-main .main-menu-item .nav-item {
     // padding: 10px 15px !important;
     padding: 6px 7px !important;
@@ -261,11 +262,11 @@
     // padding: 5px 15px !important;
     padding: 4px 7px !important;
   }
-  
+
   #navbar-main .main-menu-item .nav-item:last-of-type {
     padding: 6px 7px 10px !important;
   }
-  
+
   #navbar-main .main-menu-item .nav-item .nav-link:last-of-type {
     padding: 4px 6px 10px !important;
   }
