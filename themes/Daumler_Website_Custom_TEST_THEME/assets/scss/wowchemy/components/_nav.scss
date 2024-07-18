@@ -387,7 +387,7 @@ ul.nav-icons li.nav-item a.nav-link {
 // NEW:
 .dark .dropdown-menu {
   background-color: rgba($sta-menu-text, 0.97); // old: $sta-dark-menu-primary
-  color: $sta-dark-menu-text !important;
+  color: $sta-dark-menu-title !important;
 }
 
 .dropdown-item-text {
@@ -395,7 +395,7 @@ ul.nav-icons li.nav-item a.nav-link {
 }
 
 .dark .dropdown-item-text {
-  color: $sta-dark-menu-text;
+  color: $sta-dark-menu-title;
 }
 
 .dropdown-item:first-of-type {
