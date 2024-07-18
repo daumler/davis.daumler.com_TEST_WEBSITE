@@ -475,3 +475,11 @@ ul.nav-icons li.nav-item a.nav-link {
     }
   }
 }
+
+.dropdown-item-text {
+  color: $sta-menu-text;
+}
+
+.dark .dropdown-item-text {
+  color: $sta-dark-menu-title;
+}
