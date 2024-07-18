@@ -92,6 +92,10 @@
 
   .dropdown-menu {
     font-size: #{$sta-font-size-small}px;
+    // padding-top: 0px;
+    // padding-right: 0px;
+    padding: 0px;
+    margin: 0px;
   }
 
   // Note: dedicated `dropdown-item-active` class to prevent ScrollSpy removing `active` class from language chooser.
@@ -162,7 +166,12 @@
 
   /* Below style from .dropdown-menu-right to prevent dropdown going off page. */
   right: 0;
-  left: auto;
+  left: 0; // left: auto;
+
+  // padding-top: 0px;
+  // padding-right: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 // Allow user to horizontally scroll.
