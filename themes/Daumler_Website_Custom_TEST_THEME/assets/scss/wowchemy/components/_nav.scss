@@ -33,7 +33,7 @@
   text-align: center !important;
   //   z-index: 1031 !important; // Appear just over navbar.
   position: absolute; // position: absolute; [previously cancelled out]
-  top: 0px; // previously 44px
+  top: 40px; // previously 44px, then 60px
   min-width: 110px;
   // padding-top: 0px;
   // padding-right: 0px;
@@ -165,8 +165,8 @@
   position: absolute;
 
   /* Below style from .dropdown-menu-right to prevent dropdown going off page. */
-  right: 0;
-  left: 0; // left: auto;
+  right: 11px;
+  left: 0; // left: auto; then 0
 
   // padding-top: 0px;
   // padding-right: 0px;
