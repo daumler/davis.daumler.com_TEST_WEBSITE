@@ -387,7 +387,7 @@ ul.nav-icons li.nav-item a.nav-link {
 // NEW:
 .dark .dropdown-menu {
   background-color: rgba($sta-menu-text, 0.97); // old: $sta-dark-menu-primary
-  color: $sta-dark-menu-text;
+  color: $sta-dark-menu-text !important;
 }
 
 .dropdown-item:first-of-type {
@@ -445,7 +445,7 @@ ul.nav-icons li.nav-item a.nav-link {
   // background-color: rgba($sta-menu-text, 0.97); // old: $sta-dark-menu-primary
   // color: $sta-dark-menu-text !important;
   text-align: right !important;
-  color: $sta-dark-menu-text;
+  color: $sta-dark-menu-text !important;
 
   @include hover-focus() {
     // color: $dropdown-link-hover-color;
