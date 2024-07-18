@@ -29,7 +29,7 @@
   z-index: 1032; // I18n dropdown over mobile expanded menu.
   // position: absolute;
   top: 44px;
-  width: 125px;
+  min-width: 110px;
 }
 
 .navbar {
@@ -233,7 +233,7 @@
     left: 0;
     top: 60px;
     width: 33%;
-    background-color: rgba(#EEF9FF, 0.98); // E2F2FF, E9F7FF, EEF9FF
+    background-color: rgba(#EEF9FF, 0.97); // E2F2FF, E9F7FF, EEF9FF
     // background-color: rgba($sta-dark-menu-text-active, 0.50);
     // color: $sta-dark-menu-text;
     text-align: center !important;
