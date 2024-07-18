@@ -147,8 +147,8 @@
   position: absolute;
 
   /* Below style from .dropdown-menu-right to prevent dropdown going off page. */
-  right: 0px; // originally 0, then 11px
-  left: auto; // left: auto; then 0
+  right: 0px; // originally 0, then 11px; then 0px
+  left: 11px; // left: auto; then 0; then 11px
 
   // padding-top: 0px;
   // padding-right: 0px;
