@@ -291,17 +291,17 @@
     }
   }
 
-  #navbar-main .dark .main-menu-item .nav-item {
+  .dark #navbar-main .main-menu-item .nav-item {
     // padding: 10px 15px !important;
     @include hover-focus() {
       // @include gradient-bg($sta-dropdown-link-hover-bg);
-      @include gradient-bg(#fff);
+      @include gradient-bg(#587BA0);
     }
 
     &.active,
     &:active {
       // @include gradient-bg($sta-dropdown-link-active-bg);
-      @include gradient-bg(#fff);
+      @include gradient-bg(#587BA0);
     }
 
     &.disabled,
@@ -445,7 +445,7 @@ ul.nav-icons li.nav-item a.nav-link {
   // background-color: rgba($sta-menu-text, 0.97); // old: $sta-dark-menu-primary
   // color: $sta-dark-menu-text !important;
   text-align: right !important;
-  color: $sta-dark-menu-primary;
+  color: $sta-dark-menu-text;
 
   @include hover-focus() {
     // color: $dropdown-link-hover-color;
@@ -453,7 +453,7 @@ ul.nav-icons li.nav-item a.nav-link {
     // OLD:
     // @include gradient-bg($sta-dropdown-link-hover-bg);
     // NEW:
-    @include gradient-bg(#46627F);
+    @include gradient-bg(#587BA0);
   }
 
   &.active,
@@ -461,7 +461,7 @@ ul.nav-icons li.nav-item a.nav-link {
     // color: $dropdown-link-active-color;
     text-decoration: none;
     // @include gradient-bg($sta-dropdown-link-active-bg);
-    @include gradient-bg(#46627F);
+    @include gradient-bg(#587BA0);
   }
 
   &.disabled,
