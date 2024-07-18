@@ -255,6 +255,8 @@
     // background-color: rgba($sta-dark-menu-text-active, 0.50);
     // color: $sta-dark-menu-text;
     text-align: center !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 0px 0px 0px 11px;
   }
 
@@ -339,7 +341,7 @@ ul.nav-icons li.nav-item a.nav-link {
   // color: $sta-menu-text !important;
   // color: $sta-dark-menu-text;
   text-align: right !important;
-  padding: 5px !important;
+  padding: 4px 7px !important;
 }
 
 .dark .dropdown-item {
