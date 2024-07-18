@@ -67,8 +67,8 @@
 //
 
 .dropdown-toggle-split {
-  padding-right: 0 // OLD: padding-right: $btn-padding-x * .75;
-  padding-left: 0 // OLD: padding-left: $btn-padding-x * .75;
+  padding-right: 0; // $btn-padding-x * 1; // OLD: padding-right: $btn-padding-x * .75;
+  padding-left: 0; // $btn-padding-x * 1; // OLD: padding-left: $btn-padding-x * .75;
 
   &::after,
   .dropup &::after,
