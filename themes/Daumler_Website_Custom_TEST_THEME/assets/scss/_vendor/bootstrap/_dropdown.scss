@@ -24,7 +24,7 @@
   // OLD:
   // min-width: $dropdown-min-width;
   // NEW:
-  min-width: 20px;
+  // min-width: 20px;
   padding: $dropdown-padding-y $dropdown-padding-x;
   margin: $dropdown-spacer 0 0; // override default ul
   @include font-size($dropdown-font-size);
