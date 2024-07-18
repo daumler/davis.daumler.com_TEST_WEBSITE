@@ -253,7 +253,7 @@
   #navbar-main .main-menu-item .nav-item {
     // padding: 10px 15px !important;
     padding: 6px 7px !important;
-    width: 33%;
+    width: 100%;
 
     @include hover-focus() {
       // color: $dropdown-link-hover-color;
@@ -291,7 +291,7 @@
 
   .dark #navbar-main .main-menu-item .nav-item {
     // padding: 10px 15px !important;
-    width: 33%;
+    width: 100%;
 
     @include hover-focus() {
       // @include gradient-bg($sta-dropdown-link-hover-bg);
