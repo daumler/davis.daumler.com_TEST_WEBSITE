@@ -22,7 +22,7 @@ design:
     # text_color_light: true
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["20px", "0", "20px", "0"]
+    padding: ["20px", "0", "0px", "0"] # old: ["20px", "0", "20px", "0"]
   css_style: ''
   css_class: ''
 
@@ -32,13 +32,15 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'Personal and professional website of Davis Daumler.'
-    twitter: 'DavisDaumler'
+    description: '[Test Website] The personal and professional website of Davis Daumler.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
+    plausible: ''
+    goatcounter: ''
   verification:
     google: ''
     baidu: ''
@@ -47,7 +49,7 @@ marketing:
 header:
   navbar:
     enable: true
-    fixed_to_top: false
+    fixed_to_top: false # used to be: false
     align: r
     show_logo: true
     show_language: false
@@ -56,19 +58,19 @@ header:
     highlight_active_link: true
     # Shop a call-to-action button in the top right?
     button:
-      enable: true
+      enable: false
       text: "Download CV"
       url: "https://incomparable-halva-85ed56.netlify.app/CV"
 
 # Site footer
-footer:
-  copyright:
-    notice: '© 2024 Davis Daumler. This work is licensed under {license}'
-    license:
-      enable: false
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+#footer:
+#  copyright:
+#    notice: '© 2024 Davis Daumler. This work is licensed under {license}'
+#    license:
+#      enable: false
+#      allow_derivatives: false
+#      share_alike: true
+#      allow_commercial: false
 
 # Localization
 locale:
