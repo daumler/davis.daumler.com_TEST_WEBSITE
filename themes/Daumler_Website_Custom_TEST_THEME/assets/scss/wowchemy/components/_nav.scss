@@ -165,7 +165,7 @@
   position: absolute;
 
   /* Below style from .dropdown-menu-right to prevent dropdown going off page. */
-  right: 11px;
+  right: 11px; // originally 0, then 11px
   left: auto; // left: auto; then 0
 
   // padding-top: 0px;
@@ -339,6 +339,7 @@ ul.nav-icons li.nav-item a.nav-link {
   color: $sta-menu-text !important;
   // color: $sta-dark-menu-text;
   text-align: right !important;
+  padding: 6px 7px !important;
 }
 
 .dark .dropdown-item {
