@@ -266,16 +266,17 @@
     // color: $dropdown-link-hover-color;
     text-decoration: none;
     // OLD:
-    @include gradient-bg($sta-dropdown-link-hover-bg);
+    // @include gradient-bg($sta-dropdown-link-hover-bg);
     // NEW:
-    // @include gradient-bg(#E2F2FF);
+    @include gradient-bg(#E2F2FF);
   }
 
   &.active,
   &:active {
     // color: $dropdown-link-active-color;
     text-decoration: none;
-    @include gradient-bg($sta-dropdown-link-active-bg);
+    // @include gradient-bg($sta-dropdown-link-active-bg);
+    @include gradient-bg(#E2F2FF);
   }
 
   &.disabled,
@@ -385,16 +386,17 @@ ul.nav-icons li.nav-item a.nav-link {
     // color: $dropdown-link-hover-color;
     text-decoration: none;
     // OLD:
-    @include gradient-bg($sta-dark-dropdown-link-hover-bg);
+    // @include gradient-bg($sta-dropdown-link-hover-bg);
     // NEW:
-    // @include gradient-bg(#E2F2FF);
+    @include gradient-bg(#E2F2FF);
   }
 
   &.active,
   &:active {
     // color: $dropdown-link-active-color;
     text-decoration: none;
-    @include gradient-bg($sta-dark-dropdown-link-active-bg);
+    // @include gradient-bg($sta-dropdown-link-active-bg);
+    @include gradient-bg(#E2F2FF);
   }
 
   &.disabled,
