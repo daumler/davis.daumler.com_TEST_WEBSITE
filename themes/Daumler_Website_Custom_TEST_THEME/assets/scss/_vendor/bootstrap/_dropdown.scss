@@ -48,13 +48,13 @@
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
     .dropdown-menu#{$infix}-left {
-      right: auto;
+      right: 0; // OLD: right: auto;
       left: 0;
     }
 
     .dropdown-menu#{$infix}-right {
       right: 0;
-      left: auto;
+      left: 0; // OLD: left: auto;
     }
   }
 }
@@ -66,7 +66,7 @@
     top: auto;
     bottom: 100%;
     margin-top: 0;
-    margin-bottom: $dropdown-spacer;
+    margin-bottom: 0; // OLD: margin-bottom: $dropdown-spacer;
   }
 
   .dropdown-toggle {
@@ -80,7 +80,7 @@
     right: auto;
     left: 100%;
     margin-top: 0;
-    margin-left: $dropdown-spacer;
+    margin-left: 0; // OLD: margin-left: $dropdown-spacer;
   }
 
   .dropdown-toggle {
@@ -97,7 +97,7 @@
     right: 100%;
     left: auto;
     margin-top: 0;
-    margin-right: $dropdown-spacer;
+    margin-right: 0; // OLD: margin-right: $dropdown-spacer;
   }
 
   .dropdown-toggle {

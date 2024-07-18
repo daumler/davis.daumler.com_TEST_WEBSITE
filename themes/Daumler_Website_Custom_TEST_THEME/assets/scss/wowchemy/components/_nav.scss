@@ -35,7 +35,9 @@
   position: absolute; // position: absolute; [previously cancelled out]
   top: 60px; // previously 44px
   min-width: 110px;
-  margin: 0px 11px 0px 0px
+  padding-top: 0px;
+  padding-right: 0px;
+  margin: 0px 11px 0px 0px;
 }
 
 .navbar {
@@ -243,7 +245,7 @@
     // background-color: rgba($sta-dark-menu-text-active, 0.50);
     // color: $sta-dark-menu-text;
     text-align: center !important;
-    margin: 0px 0px 0px 11px
+    margin: 0px 0px 0px 11px;
   }
 
   .dark .navbar-collapse {
