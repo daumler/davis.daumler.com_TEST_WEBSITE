@@ -66,18 +66,18 @@
 // Split button dropdowns
 //
 
-.dropdown-toggle-split {
-  padding-right: $btn-padding-x * .75;
-  padding-left: $btn-padding-x * .75;
+// .dropdown-toggle-split {
+  // padding-right: $btn-padding-x * .75;
+  // padding-left: $btn-padding-x * .75;
 
-  &::after,
-  .dropup &::after,
-  .dropright &::after {
-    margin-left: 0;
-  }
+//  &::after,
+//  .dropup &::after,
+//  .dropright &::after {
+//    margin-left: 0;
+//  }
 
-  .dropleft &::before {
-    margin-right: 0;
+//  .dropleft &::before {
+//    margin-right: 0;
   }
 }
 
