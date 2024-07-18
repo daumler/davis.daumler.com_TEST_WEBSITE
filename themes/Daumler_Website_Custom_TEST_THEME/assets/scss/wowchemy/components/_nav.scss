@@ -253,6 +253,7 @@
   #navbar-main .main-menu-item .nav-item {
     // padding: 10px 15px !important;
     padding: 6px 7px !important;
+    width: 33%;
 
     @include hover-focus() {
       // color: $dropdown-link-hover-color;
@@ -286,61 +287,12 @@
   #navbar-main .main-menu-item .nav-item .nav-link {
     // padding: 5px 15px !important;
     padding: 4px 7px !important;
-
-    @include hover-focus() {
-      // color: $dropdown-link-hover-color;
-      text-decoration: none;
-      // OLD:
-      // @include gradient-bg($sta-dropdown-link-hover-bg);
-      // NEW:
-      @include gradient-bg(#D7EFFF);
-    }
-
-    &.active,
-    &:active {
-      // color: $dropdown-link-active-color;
-      text-decoration: none;
-      // @include gradient-bg($sta-dropdown-link-active-bg);
-      @include gradient-bg(#D7EFFF);
-    }
-
-    &.disabled,
-    &:disabled {
-      // color: $dropdown-link-disabled-color;
-      pointer-events: none;
-      background-color: transparent;
-      // Remove CSS gradients if they're enabled
-      @if $enable-gradients {
-        background-image: none;
-      }
-    }
   }
 
   .dark #navbar-main .main-menu-item .nav-item {
     // padding: 10px 15px !important;
-    @include hover-focus() {
-      // @include gradient-bg($sta-dropdown-link-hover-bg);
-      @include gradient-bg(#587BA0);
-    }
+    width: 33%;
 
-    &.active,
-    &:active {
-      // @include gradient-bg($sta-dropdown-link-active-bg);
-      @include gradient-bg(#587BA0);
-    }
-
-    &.disabled,
-    &:disabled {
-      background-color: transparent;
-      // Remove CSS gradients if they're enabled
-      @if $enable-gradients {
-        background-image: none;
-      }
-    }
-  }
-
-  .dark #navbar-main .main-menu-item .nav-item .nav-link {
-    // padding: 10px 15px !important;
     @include hover-focus() {
       // @include gradient-bg($sta-dropdown-link-hover-bg);
       @include gradient-bg(#587BA0);
