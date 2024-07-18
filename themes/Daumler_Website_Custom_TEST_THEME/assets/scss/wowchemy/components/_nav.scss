@@ -335,8 +335,8 @@ ul.nav-icons li.nav-item a.nav-link {
   // OLD:
   // background-color: $sta-menu-primary !important; // old: $sta-menu-primary
   // NEW:
-  background-color: rgba(#EEF9FF, 0.97); // E2F2FF, E9F7FF, EEF9FF
-  color: $sta-menu-text !important;
+  // background-color: rgba(#EEF9FF, 0.97); // E2F2FF, E9F7FF, EEF9FF
+  // color: $sta-menu-text !important;
   // color: $sta-dark-menu-text;
   text-align: right !important;
   padding-top: 5px;
@@ -348,7 +348,7 @@ ul.nav-icons li.nav-item a.nav-link {
   // OLD:
   // background-color: $sta-dark-menu-primary !important; // old: $sta-dark-menu-primary
   // NEW:
-  background-color: rgba($sta-menu-text, 0.97); // old: $sta-dark-menu-primary
-  color: $sta-dark-menu-text !important;
+  // background-color: rgba($sta-menu-text, 0.97); // old: $sta-dark-menu-primary
+  // color: $sta-dark-menu-text !important;
   text-align: right !important;
 }
