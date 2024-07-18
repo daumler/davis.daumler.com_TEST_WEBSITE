@@ -266,7 +266,7 @@
     // color: $dropdown-link-hover-color;
     text-decoration: none;
     // OLD:
-    @include gradient-bg($dropdown-link-hover-bg);
+    @include gradient-bg($sta-dropdown-link-hover-bg);
     // NEW:
     // @include gradient-bg(#E2F2FF);
   }
@@ -275,7 +275,7 @@
   &:active {
     // color: $dropdown-link-active-color;
     text-decoration: none;
-    @include gradient-bg($dropdown-link-active-bg);
+    @include gradient-bg($sta-dropdown-link-active-bg);
   }
 
   &.disabled,
@@ -385,7 +385,7 @@ ul.nav-icons li.nav-item a.nav-link {
     // color: $dropdown-link-hover-color;
     text-decoration: none;
     // OLD:
-    @include gradient-bg($dropdown-link-hover-bg);
+    @include gradient-bg($sta-dropdown-link-hover-bg);
     // NEW:
     // @include gradient-bg(#E2F2FF);
   }
@@ -394,7 +394,7 @@ ul.nav-icons li.nav-item a.nav-link {
   &:active {
     // color: $dropdown-link-active-color;
     text-decoration: none;
-    @include gradient-bg($dropdown-link-active-bg);
+    @include gradient-bg($sta-dropdown-link-active-bg);
   }
 
   &.disabled,
