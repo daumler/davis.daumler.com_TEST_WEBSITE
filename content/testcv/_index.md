@@ -5,4 +5,4 @@ date: ''
 ---
 Test
 
-{{< pdf fileName="testing 123" url="/files/altcv.pdf" type="IN_LINE" >}}
+{{< pdf fileName="testing 123" url="/uploads/Daumler_CV.pdf" type="IN_LINE" >}}
