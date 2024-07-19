@@ -16,6 +16,9 @@ main:
   - name: Publications
     url: '/publications/'
     weight: 320
+  - name: Test CV
+    url: '/testcv/'
+    weight: 325
 #  - name: Teaching
 #    url: '/event/'
 #    weight: 330

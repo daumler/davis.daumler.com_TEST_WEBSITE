@@ -126,6 +126,8 @@ extensions:
     local_backend: false
   academicons:
     enable: true
+  pdf:
+    adobeClientId: '9dba71e1c3cd4a8aa064b5ab160e293e'
 
 # Security
 security:

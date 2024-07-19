@@ -53,6 +53,11 @@
   <script defer async data-host="{{ site.Params.marketing.analytics.liteanalytics }}" src="https://liteanalytics.com/lite.js"></script>
   {{- end -}}
 
+  <!--- ADDING THE OPTION FOR "ADOBE PDF EMBED API" PDF VIEWER --->
+  {{ if site.Params.extensions.pdf.adobeClientId }}
+  <script type="text/javascript" src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+  {{- end -}}
+
   {{ $css := site.Data.assets.css }}
   {{ $js := site.Data.assets.js }}
 
