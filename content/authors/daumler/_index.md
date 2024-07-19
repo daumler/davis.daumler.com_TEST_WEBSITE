@@ -64,11 +64,7 @@ Hi, I am a sociologist who studies wealth, poverty, and families. My research ad
 
 I am currently working on two broader projects. The first investigates how the timing of childhood poverty contributes to intergenerational inequalities. And the second explores the process by which families accumulate wealth and the larger shift in society’s reliance on household finances as a private safety net.
 
-<a href="https://incomparable-halva-85ed56.netlify.app/Daumler_CV"
-   data-goatcounter-click="ext-incomparable-halva-85ed56.netlify.app/Daumler_CV"
-   data-goatcounter-title="CV"
-   data-goatcounter-referrer="local"
->Download CV</a>
+<a href="https://incomparable-halva-85ed56.netlify.app/Daumler_CV" data-goatcounter-click="ext-incomparable-halva-85ed56.netlify.app/Daumler_CV" data-goatcounter-title="CV" data-goatcounter-referrer="local">Download CV</a>
 
 {{< cta cta_text="DOWNLOAD CV" cta_link="/CV/" cta_new_tab="true" >}}
 <!--- Commenting out ---
