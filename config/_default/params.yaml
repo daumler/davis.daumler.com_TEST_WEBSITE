@@ -127,7 +127,8 @@ extensions:
   academicons:
     enable: true
   pdf:
-    adobeClientId: '9dba71e1c3cd4a8aa064b5ab160e293e'
+    adobeClientId: 'd2c6801fe11f44ec9d5e7b2635025433' # for incomparable-halva-85ed56
+    # adobeClientId: '9dba71e1c3cd4a8aa064b5ab160e293e' # for davis.daumler.com
 
 # Security
 security:
