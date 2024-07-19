@@ -11,4 +11,8 @@ sections:
       title: 
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: daumler
+    design:
+      image:
+          # Add your image background to `assets/media/`.
+          filename: stacked-peaks.svg
 ---
