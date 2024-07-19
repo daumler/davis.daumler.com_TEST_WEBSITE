@@ -17,8 +17,24 @@ main:
     url: '/publications/'
     weight: 320
   - name: Test CV
-    url: '/testcv/'
-    weight: 325
+    url: '/cv1/'
+    weight: 400
+  - name: CV1
+    parent: Test CV
+    url: '/cv1/'
+    weight: 405
+  - name: CV2
+    parent: Test CV
+    url: '/cv2/'
+    weight: 410
+  - name: CV3
+    parent: Test CV
+    url: '/cv3/'
+    weight: 415
+  - name: CV4
+    parent: Test CV
+    url: '/cv4/'
+    weight: 420
 #  - name: Teaching
 #    url: '/event/'
 #    weight: 330
