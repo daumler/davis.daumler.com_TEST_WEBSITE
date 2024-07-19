@@ -2,32 +2,7 @@
 title: ''
 date: ''
 ---
-
-<div id="adobe-dc-view" style="width: 800px;"></div>
-<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-<script type="text/javascript">
-const ADOBE_KEY = 'b9151e8d6a0b4d798e0f8d7950efea91';
-
-if(window.AdobeDC) displayPDF();
-else {
-  document.addEventListener("adobe_dc_view_sdk.ready", () => displayPDF());
-}
-
-function displayPDF() {
-  console.log('Lets do some AWESOME PDF stuff!');
-  let adobeDCView = new AdobeDC.View({clientId: ADOBE_KEY, divId: "mypdf" });
-  adobeDCView.previewFile({
-    content:{location: {url: "https://static.raymondcamden.com/enclosures/cat.pdf"}},
-    metaData:{fileName: "cat.pdf"}
-  }); 
-}
-</script>
-
-
-```
-<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-```
-
+Test
 
 ```
 <!DOCTYPE html>
