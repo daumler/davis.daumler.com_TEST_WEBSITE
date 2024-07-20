@@ -9,8 +9,7 @@
 {{ $text := $block.content.text | emojify | $page.RenderString }}
 
 {{ if ne $columns "1" }}
-  <div class="col-12 col-lg-10">
-    <!--- Temporary edit from << <div class="col-12 col-lg-8"> >> to the above --->
+  <div class="col-12 col-lg-8">
     {{ $text }}
   </div>
 {{ else }}
