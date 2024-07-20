@@ -19,6 +19,6 @@ type: landing
   </style>
 </head>
 <body>
-  <iframe id="Davis Daumler's CV" src="/uploads/Daumler_CV.pdf" frameborder="0"></iframe>
+  <iframe id="myPDF" src="/uploads/Daumler_CV.pdf" frameborder="0"></iframe>
 </body>
 </html>
