@@ -13,7 +13,7 @@ date: ''
   <style>
     #myPDF {
       width: 100%;
-      height: calc(100vh - 275px);
+      height: calc(100dvh - 250px);
     }
     div {text-align: center;}
   </style>
