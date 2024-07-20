@@ -40,7 +40,7 @@ marketing:
     google_tag_manager: ''
     microsoft_clarity: ''
     plausible: ''
-    goatcounter: ''
+    goatcounter: 'testdd5' # Host name, if using Goat Counter Website Analytics
     liteanalytics: ''
   verification:
     google: ''
