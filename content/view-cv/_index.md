@@ -12,7 +12,7 @@ date: ''
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     #myPDF {
-      width: 90;
+      width: 90%;
       height: 975px;
     }
   </style>
