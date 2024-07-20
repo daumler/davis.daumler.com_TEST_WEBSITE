@@ -7,10 +7,5 @@ date: ''
 {{< cta cta_alt_text="DOWNLOAD CV" cta_alt_link="/CV/" cta_alt_new_tab="true" >}}
 
 <html>
-  <style>
-    #myPDF {
-      width: 85%;
-      height: 975px;
-    }
-  </style>
+<iframe id="Davis Daumler's CV" src="uploads/Daumler_CV.pdf" frameborder="0"></iframe>
 </html>
