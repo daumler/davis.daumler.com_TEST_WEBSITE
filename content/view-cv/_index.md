@@ -12,8 +12,8 @@ date: ''
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     #myPDF {
-      width: 90%;
-      height: 85%;
+      width: 100%;
+      height: 100vh;
     }
     div {text-align: center;}
   </style>
@@ -25,6 +25,7 @@ date: ''
 
 
 <html>
+<body>
 <script type="text/javascript" src="scripts/pdfobject.js"></script>
 <div id="pdf1" style="width:500px; height:375px;"></div>
 <script type='text/javascript'>
@@ -38,4 +39,5 @@ var myPDF = new PDFObject({
           navpanes: '0' }
       }).embed('pdf1'); 
 </script>
+</body>
 </html>
