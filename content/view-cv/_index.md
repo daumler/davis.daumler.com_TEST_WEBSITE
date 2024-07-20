@@ -13,31 +13,12 @@ date: ''
   <style>
     #myPDF {
       width: 100%;
-      height: 100vh;
+      height: 75vh;
     }
     div {text-align: center;}
   </style>
 </head>
 <body>
   <iframe id="myPDF" src="/uploads/Daumler_CV.pdf#toolbar=0&navpanes=0" frameborder="0"></iframe>
-</body>
-</html>
-
-
-<html>
-<body>
-<script type="text/javascript" src="scripts/pdfobject.js"></script>
-<div id="pdf1" style="width:500px; height:375px;"></div>
-<script type='text/javascript'>
-var myPDF = new PDFObject({ 
-     url: '/uploads/Daumler_CV.pdf', 
-     pdfOpenParams: { 
-          view: 'Fit', 
-          scrollbars: '0', 
-          toolbar: '0', 
-          statusbar: '0', 
-          navpanes: '0' }
-      }).embed('pdf1'); 
-</script>
 </body>
 </html>
