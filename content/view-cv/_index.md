@@ -19,6 +19,6 @@ date: ''
   </style>
 </head>
 <body>
-  <iframe id="myPDF" src="/uploads/Daumler_CV.pdf#toolbar=0" frameborder="0"></iframe>
+  <iframe id="myPDF" src="/uploads/Daumler_CV.pdf#navpanes=0" frameborder="0"></iframe>
 </body>
 </html>
