@@ -70,11 +70,11 @@
       position: sticky;
       top: 50px;
       z-index: 10;
-      height: calc(100vh - 50px);
+      height: calc(100dvh - 50px); // used to be 100vh
     }
     .no-navbar .docs-sidebar {
       top: 0;
-      height: 100vh;
+      height: 100dvh; // used to be 100vh
     }
   }
 }
@@ -89,11 +89,11 @@
       position: sticky;
       top: 70px;
       z-index: 10;
-      height: calc(100vh - 70px);
+      height: calc(100dvh - 70px); // used to be 100vh
     }
     .no-navbar .docs-sidebar {
       top: 0;
-      height: 100vh;
+      height: 100dvh; // used to be 100vh
     }
   }
 }
@@ -155,7 +155,7 @@
 @media (min-width: 720px) {
   @supports ((position: -webkit-sticky) or (position: sticky)) {
     .docs-links {
-      max-height: calc(100vh - 5rem - 70px);
+      max-height: calc(100dvh - 5rem - 70px); // used to be 100vh
       overflow-y: auto;
     }
   }
@@ -181,7 +181,7 @@
     position: -webkit-sticky;
     position: sticky;
     top: 70px;
-    height: calc(100vh - 70px);
+    height: calc(100dvh - 70px); // used to be 100vh
     overflow-y: auto;
   }
 }
