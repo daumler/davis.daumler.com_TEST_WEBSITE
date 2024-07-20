@@ -13,12 +13,12 @@ date: ''
   <style>
     #myPDF {
       width: 100%;
-      height: calc(100vh - 250px);
+      height: calc(100vh - 275px);
     }
     div {text-align: center;}
   </style>
 </head>
 <body>
-  <iframe id="myPDF" src="/uploads/Daumler_CV.pdf#navpanes=0" frameborder="0"></iframe>
+  <iframe id="myPDF" src="/uploads/Daumler_CV.pdf#navpanes=0&zoom=FitW" frameborder="0"></iframe>
 </body>
 </html>
