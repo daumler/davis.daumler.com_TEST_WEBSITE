@@ -16,9 +16,6 @@ main:
   - name: Publications
     url: '/publications/'
     weight: 320
-  - name: View CV
-    url: '/view-cv/'
-    weight: 400
 #  - name: Teaching
 #    url: '/event/'
 #    weight: 330
@@ -30,10 +27,13 @@ main:
 #    parent: Resources
 #    url: '/talks/slides/'
 #    weight: 410
+  - name: View CV
+    url: '/view-cv/'
+    weight: 500
   - name: PSID-SHELF
 #    parent: Resources
     url: 'https://www.openicpsr.org/openicpsr/project/194322'
-    weight: 420
+    weight: 600
 #  - name: About Me
 #    url: '/post/'
 #    weight: 800
