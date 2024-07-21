@@ -83,7 +83,7 @@
         {{ end }}
         {{ $currenturl := .Page.RelPermalink }}
         <li>
-          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}" data-goatcounter-click="ext-home-icon" data-goatcounter-title="home-icon/general" data-goatcounter-referrer="{{ .Site.BaseURL }}{{ $currenturl }}">
+          <a href="{{ $link | safeURL }}" {{ if eq .icon "twitter" }}data-goatcounter-click="ext-home-icon-twitter" data-goatcounter-title="home-icon/Twitter" data-goatcounter-referrer="{{ .Site.BaseURL }}{{ $currenturl }}"{{ end }} {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}">
             <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
           </a>
         </li>
