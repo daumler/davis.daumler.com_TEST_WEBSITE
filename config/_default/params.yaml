@@ -126,8 +126,9 @@ extensions:
     local_backend: false
   academicons:
     enable: true
-    pdf:
-      adobeClientId: '' # website-specific code from https://developer.adobe.com/console
+  pdf:
+    # Website-specific code from << https://developer.adobe.com/console >>
+    adobeClientId: ''
 
 # Security
 security:
