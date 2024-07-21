@@ -81,8 +81,9 @@
         {{ else if in (slice "http" "https") $scheme }}
           {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
         {{ end }}
+        {{ $currenturl := .Page.RelPermalink }}
         <li>
-          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}">
+          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} aria-label="{{ .icon }}" data-goatcounter-click="ext-home-icon" data-goatcounter-title="home-icon/general" data-goatcounter-referrer="{{ .Site.BaseURL }}{{ $currenturl }}">
             <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
           </a>
         </li>
