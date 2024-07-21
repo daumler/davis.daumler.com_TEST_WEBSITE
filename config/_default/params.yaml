@@ -39,9 +39,9 @@ marketing:
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
-    plausible: ''
     goatcounter: 'testdd5' # Host name, if using Goat Counter Website Analytics
     liteanalytics: ''
+    plausible: ''
   verification:
     google: ''
     baidu: ''
@@ -127,8 +127,7 @@ extensions:
   academicons:
     enable: true
   pdf:
-    adobeClientId: 'd2c6801fe11f44ec9d5e7b2635025433' # for incomparable-halva-85ed56
-    # adobeClientId: '9dba71e1c3cd4a8aa064b5ab160e293e' # for davis.daumler.com
+    adobeClientId: '' # website-specific code from https://developer.adobe.com/console
 
 # Security
 security:
