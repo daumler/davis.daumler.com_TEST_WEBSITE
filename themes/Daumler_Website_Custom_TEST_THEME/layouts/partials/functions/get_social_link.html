@@ -30,9 +30,8 @@
 {{ if not $scheme }}
   {{ $link = .link | relLangURL }}
 {{ else if in (slice "http" "https") $scheme }}
-  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+  {{ $target = "data-goatcounter-click="ext-home-icon-$icon" data-goatcounter-title="home-icon/$icon" data-goatcounter-referrer="{{ .Site.BaseURL }}{{ $currenturl }}" target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
 {{ $scr.SetInMap "social_link" "target" $target }}
-{{ $scr.SetInMap "social_link" "link" $link }}
 
 {{ return $scr.Get "social_link" }}
