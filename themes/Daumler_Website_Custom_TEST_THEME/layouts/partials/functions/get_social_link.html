@@ -24,7 +24,6 @@
 
 {{/* Get external link or relative internal link. */}}
 {{ $icon := .icon }}
-{{ $label := .label }}
 {{ $link := .link }}
 {{ $target := "" }}
 {{ $scheme := (urls.Parse $link).Scheme }}
@@ -33,9 +32,7 @@
 {{ else if in (slice "http" "https") $scheme }}
   {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
 {{ end }}
-{{ $scr.SetInMap "social_link" "link" $link }}
 {{ $scr.SetInMap "social_link" "target" $target }}
-{{ $scr.SetInMap "social_link" "icon" $icon }}
-{{ $scr.SetInMap "social_link" "aria_label" $aria_label }}
+{{ $scr.SetInMap "social_link" "link" $link }}
 
 {{ return $scr.Get "social_link" }}

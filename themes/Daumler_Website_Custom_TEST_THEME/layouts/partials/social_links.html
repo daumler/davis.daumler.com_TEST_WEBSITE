@@ -5,6 +5,7 @@
     {{ if in (slice "fab" "fas" "far" "fal") $pack }}
       {{ $pack_prefix = "fa" }}
     {{ end }}
+    {{ $icon := .icon }}
     {{ $link := .link }}
     {{ $scheme := (urls.Parse $link).Scheme }}
     {{ $target := "" }}
