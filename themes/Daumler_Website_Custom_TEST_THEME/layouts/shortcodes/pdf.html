@@ -1,3 +1,6 @@
+<!--- Start cancelling out ---
+/* There is currently no Adobe Client ID attached to this site. */
+
 {{ with site.Params.extensions.pdf.adobeClientId }}
 {{ else }}
 {{ errorf "missing value for param 'adobeClientId': %s" .Position }}
@@ -37,3 +40,5 @@
         }, viewerConfig);
     });
 </script>
+
+--- Stop commenting out --->
