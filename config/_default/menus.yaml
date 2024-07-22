@@ -49,6 +49,10 @@ main:
 #    parent: TBD
 #    url: '/post/'
 #    weight: 850
+  - name: Test Widget
+    parent: TBD
+    url: '/test-widget/'
+    weight: 860
   - name: View CV
     url: '/view-cv/'
     weight: 900
