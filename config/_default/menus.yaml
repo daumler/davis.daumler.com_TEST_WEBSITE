@@ -21,10 +21,18 @@ main:
     parent: TBD
     url: '/publications/'
     weight: 820
+  - name: Publications2
+    parent: TBD
+    url: '/publications2/'
+    weight: 822
+  - name: Publications3
+    parent: TBD
+    url: '/publications3/'
+    weight: 824
   - name: Article
     parent: TBD
     url: '/article/'
-    weight: 825
+    weight: 826
 #  - name: Teaching
 #    parent: TBD
 #    url: '/talks/'
