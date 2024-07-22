@@ -26,7 +26,7 @@ sections:
         - journal_articles
       title: Journal articles
     design:
-      columns: "1"
+      columns: '1'
       view: 3
     id: journal
   - block: portfolio
@@ -37,7 +37,7 @@ sections:
         - journal_articles
       title: Journal articles
     design:
-      columns: "3"
+      columns: '3'
       view: 2
     id: journal
   - block: collection
@@ -48,7 +48,7 @@ sections:
         - publications3
       title: Working papers
     design:
-      columns: "2"
+      columns: 2
       view: 2
     id: preprint
 ---
