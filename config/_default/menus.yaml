@@ -10,26 +10,37 @@ main:
   - name: CV
     url: 'https://incomparable-halva-85ed56.netlify.app/Daumler_CV'
     weight: 200
+  - name: TBD
+    weight: 800
+    identifier: TBD
   - name: Projects
-    url: '/Projects/'
-    weight: 310
-  - name: Publications
-    url: '/publications/'
+    parent: TBD
+    url: '/projects/'
     weight: 810
+  - name: Publications
+    parent: TBD
+    url: '/publications/'
+    weight: 820
+  - name: Article
+    parent: TBD
+    url: '/article/'
+    weight: 825
 #  - name: Teaching
-#    url: '/event/'
-#    weight: 820
-#  - name: Resources
-#  - identifier: resources
+#    parent: TBD
 #    url: '/talks/'
 #    weight: 830
-#  - name: Hobbies
-#    parent: Resources
+#  - name: Talks
+#    parent: TBD
 #    url: '/talks/slides/'
-#    weight: 835
-#  - name: About Me
-#    url: '/post/'
 #    weight: 840
+#  - name: Hobbies
+#    parent: TBD #    parent: Resources
+#    url: '/talks/slides/'
+#    weight: 845
+#  - name: About Me
+#    parent: TBD
+#    url: '/post/'
+#    weight: 850
   - name: View CV
     url: '/view-cv/'
     weight: 900
