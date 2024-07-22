@@ -28,7 +28,12 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: '2017-01-01T00:00:00Z'
 
-authors: []
+authors:
+  - Arthurt Sakamoto
+  - Deirdre Bloome
+  - Ernesto Amaral
+  - daumler
+  - Shih-Keng Yen
 tags: []
 
 # Is this a featured talk? (true/false)

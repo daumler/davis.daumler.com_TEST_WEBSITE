@@ -30,14 +30,14 @@ permalinks:
   section:
     project: '/projects/'
     publication: '/publications/'
-    event: '/publications2/'
+    event: '/article/'
   page:
     tags: '/tag/:slug/'
     categories: '/category/:slug/'
     project: '/projects/:slug/'
     publication: '/publications/:slug/'
     publication_types: '/publication-type/:slug/'
-    event: '/publications2/:slug/'
+    event: '/article/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
