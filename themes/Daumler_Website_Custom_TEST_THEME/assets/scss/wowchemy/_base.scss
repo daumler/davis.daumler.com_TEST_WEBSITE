@@ -311,7 +311,7 @@ mark,
 
 @media only screen and (min-width: 1001px) { // originally 1001px
   .universal-wrapper {
-    width: 1000px;
+    width: 1000px; // originally 1000px
   }
 }
 
@@ -321,5 +321,5 @@ small,
 }
 
 .responsive-wrap iframe {
-  max-width: 100%;
+  max-width: 120%;
 }
