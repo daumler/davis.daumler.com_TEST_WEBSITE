@@ -309,14 +309,14 @@ mark,
   width: 100%;
 }
 
-@media only screen and (min-width: 993px) { // originally 1001px
+@media only screen and (min-width: 929px) { // originally 1001px
   .universal-wrapper {
-    width: 992px; // originally 1000px
+    width: 928px; // originally 1000px
   }
 }
 
 // ALL NEW:
-@media only screen and (min-width: 1123px) {
+@media only screen and (min-width: 1051px) {
   .universal-wrapper {
     width: 88.38%;
   }
