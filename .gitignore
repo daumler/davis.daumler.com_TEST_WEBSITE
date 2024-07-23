@@ -1,9 +1,16 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+Thumbs.db
+
 # IDEs
 .idea/
 
 # Hugo
-resources/
-public/
+/resources/
+/public/
 jsconfig.json
 node_modules/
 go.sum
