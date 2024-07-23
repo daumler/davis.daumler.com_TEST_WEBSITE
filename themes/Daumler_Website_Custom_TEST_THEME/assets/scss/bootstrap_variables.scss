@@ -16,9 +16,10 @@ $text-muted: rgba(0, 0, 0, 0.54);
 $container-max-widths: (
   sm: 576px,
   md: 768px,
-  lg: 928px, // 960 > 992 > 928
-  xl: 1290px // originally 1140px, then 1290px
-)
+  lg: 928px, // 992 > 928
+  // wider default: 1140 -> 1290
+  xl: 1290px, // Used to be: 1290px, then 1140px
+);
 
 $navbar-toggler-padding-x: 0;
 $navbar-toggler-font-size: 18px;
