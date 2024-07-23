@@ -309,23 +309,23 @@ mark,
   width: 100%;
 }
 
-@media only screen and (min-width: 1001px) { // originally 1001px
+@media only screen and (min-width: 993px) { // originally 1001px
   .universal-wrapper {
-    width: 1000px; // originally 1000px
+    width: 992px; // originally 1000px
   }
 }
 
 // ALL NEW:
-@media only screen and (min-width: 1041px) {
+@media only screen and (min-width: 1123px) {
   .universal-wrapper {
-    width: 87.71929%;
+    width: 88.38%;
   }
 }
 
 // ALL NEW:
-@media only screen and (min-width: 1289px) {
+@media only screen and (min-width: 1290px) {
   .universal-wrapper {
-    width: 1130px;
+    width: 1140px;
   }
 }
 
