@@ -309,9 +309,35 @@ mark,
   width: 100%;
 }
 
-@media only screen and (min-width: 1101px) { // originally 1001px
+@media only screen and (min-width: 1001px) { // originally 1001px
   .universal-wrapper {
-    width: 1100px; // originally 1000px
+    width: 1000px; // originally 1000px
+  }
+}
+
+// ALL NEW:
+@media only screen and (min-width: 1041px) {
+  .universal-wrapper {
+    width: 87.71929%;
+  }
+}
+
+// ALL NEW:
+@media only screen and (min-width: 1289px) {
+  .universal-wrapper {
+    width: 1130px;
+  }
+}
+
+
+
+1000/0.8771929
+
+@include media-breakpoint-down(xl) {
+  @media only screen and (min-width: 1201px) { // originally 1001px
+    .universal-wrapper {
+      width: 1200px; // originally 1000px
+    }
   }
 }
 
