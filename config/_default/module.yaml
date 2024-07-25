@@ -5,8 +5,8 @@
 ############################
 
 imports:
-  - path: github.com/daumler/Daumler_Website_Custom_Theme
   - path: github.com/daumler/Daumler_Website_Custom_Theme/testing
+  - path: github.com/daumler/Daumler_Website_Custom_Theme
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal
   - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
