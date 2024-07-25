@@ -1,6 +1,6 @@
 name = "[Test Website] Davis Daumler"
-license = "MIT"
-licenselink = "https://github.com/HugoBlox/theme-academic-cv/blob/main/LICENSE.md"
+license = ""
+licenselink = """
 description = "[Test website] The personal and professional website of Davis Daumler."
 homepage = "https://incomparable-halva-85ed56.netlify.app"
 demosite = ""
