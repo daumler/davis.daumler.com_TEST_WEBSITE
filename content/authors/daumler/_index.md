@@ -64,7 +64,7 @@ highlight_name: true
 
 Hi, I am a sociologist who studies wealth, poverty, and families---in order to understand how societies become economically and racially stratified. 
 
-Since 2025, I have held an appointment as the Stone Program Postdoctoral Fellow at Harvard University. Prior to joining the <a href="https://inequality.hks.harvard.edu/" target="_blank" rel="noopener noreferrer">Harvard Stone Program</a>, I received my Ph.D. in Sociology from the University of Michigan. 
+Since September 2025, I have held an appointment as the Stone Program Postdoctoral Fellow at Harvard University. Prior to joining the <a href="https://inequality.hks.harvard.edu/" target="_blank" rel="noopener noreferrer">Harvard Stone Program</a>, I received my Ph.D. in Sociology from the University of Michigan. 
 
 My research advances our understanding of how population-level inequalities are shaped by different aspects of temporal dynamics, including life-course timing and shifting historical contexts. It is not just *what* happens to you that matters, but *when* something occurs and *how long* it lasts. Each paper of my dissertation addresses a different facet of this theoretical argument, by investigating the role of temporal dynamics in the contexts of intergenerational poverty and family wealth accumulation. The first chapter of my dissertation won the 2023 Robert D. Mare Graduate Student Paper Award from the <a href="https://www.asanet.org/communities-and-sections/sections/current-sections/inequality-poverty-and-mobility-award-recipient-history/" target="_blank" rel="noopener noreferrer">ASA Section on Inequality, Poverty, and Mobility</a>.
 <!--- 
