@@ -77,6 +77,6 @@ My postdoctoral research builds upon these insights by examining how changes to 
 I am very grateful to have received funding and grant support from the Social Sciences and Humanities Research Council of Canada, the Peter G. Peterson Foundation, and the American Sociological Association.
 --->
 
-NOTE: **I will be on the academic job market in August 2026.** If you have any questions, or if you would like to chat, please reach out to me!
+**I will be on the academic job market in August 2026.** If you have any questions, or if you would like to chat, please reach out to me!
 
 {{< cta cta_text="DOWNLOAD CV" cta_link="/Daumler_CV/" cta_new_tab="true" >}}
