@@ -62,12 +62,16 @@ highlight_name: true
 --- 
 <!--- NOTE: This site uses GoatCounter, an open-source, not-for-profit web analytics platform that does not track personal data or use any cookies. GoatCounter is a donation-supported and privacy-friendly alternative to Google Analytics or Matomo, intended for noncommercial or small-business websites. More information on the philosophy and mechanics of GoatCounter can be found here (<< https://www.goatcounter.com/why >>), and an open-source repository for the platform can be found here (<< https://github.com/arp242/goatcounter >>). --->
 
-Hi, I am a sociologist who studies wealth, poverty, and families---in order to understand how societies become economically and racially stratified. My research advances our understanding of how population-level inequalities are shaped by different aspects of temporal dynamics, including life-course timing and shifting historical contexts. 
+Hi, I am a sociologist who studies wealth, poverty, and families---in order to understand how societies become economically and racially stratified. 
 
-Since 2025, I have held an appointment as the Stone Postdoctoral Fellow at Harvard University, within the John F. Kennedy School of Government. Prior to joining the Harvard Stone Program, I received my Ph.D. in Sociology from the University of Michigan. 
+Since 2025, I have held an appointment as the Stone Program Postdoctoral Fellow at Harvard University, within the John F. Kennedy School of Government. Prior to joining the Harvard Stone Program, I received my Ph.D. in Sociology from the University of Michigan. 
+
+My research advances our understanding of how population-level inequalities are shaped by different aspects of temporal dynamics, including life-course timing and shifting historical contexts. 
 
 My dissertation was motivated by a desire to understand how the temporality of life experiences contributes to social stratification. It is not just *what* happens to you that matters, but *when* something occurs and *how long* it lasts. Each paper of my dissertation addresses a different facet of this theoretical argument, by investigating the role of temporal dynamics in the contexts of intergenerational poverty and family wealth accumulation. The first chapter of my dissertation won the 2023 Robert D. Mare Graduate Student Paper Award from the ASA Inequality, Poverty, and Mobility section.
-<!--- The central argument of my dissertation project is that differences in temporality---over the life course and across historical time---are fundamental for explaining how year-to-year inequalities become rigidly stratified. --->
+<!--- 
+The central argument of my dissertation project is that differences in temporality---over the life course and across historical time---are fundamental for explaining how year-to-year inequalities become rigidly stratified. 
+--->
 
 My postdoctoral research builds upon the insights of my dissertation, by examining how changes to the political economy of wealth have affected the economic foundation of families. Drawing on a unique combination of institutional and demographic theories, my research investigates a key pathway by which government policies directly affect the wealth of American families—and maintain systems of racialized wealth inequality. 
 
