@@ -73,6 +73,10 @@ The central argument of my dissertation project is that differences in temporali
 
 My postdoctoral research builds upon these insights by examining how changes to the political economy of wealth have affected the economic foundation of families. Drawing on a unique combination of institutional and demographic theories, my research investigates a key pathway by which government policies directly affect the wealth of American families---and maintain systems of racialized wealth inequality. 
 
+<!--- 
 I am very grateful to have received funding and grant support from the Social Sciences and Humanities Research Council of Canada, the Peter G. Peterson Foundation, and the American Sociological Association.
+--->
+
+I will be on the academic job market in August 2026. If you have any questions, or if you would like to chat, please reach out to me!
 
 {{< cta cta_text="DOWNLOAD CV" cta_link="/Daumler_CV/" cta_new_tab="true" >}}
