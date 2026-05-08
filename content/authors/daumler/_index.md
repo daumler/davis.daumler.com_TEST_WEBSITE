@@ -17,11 +17,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Sociologist and PhD Candidate
+role: Sociologist and Postdoctoral Research Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Michigan
+  - name: Harvard University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
